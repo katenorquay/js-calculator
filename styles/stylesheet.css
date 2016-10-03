@@ -1,0 +1,59 @@
+.calculator {
+  background-image: url("../images/lego.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  width: 80%;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: inset -1px -1px 8px 1px #b3b3cc;
+}
+
+.button-holder {
+  position: absolute;
+  width: 83%;
+  top: 130px;
+  left: 32px;
+}
+
+button {
+  font-family: 'Exo', sans-serif;
+  font-size: 30px;
+  background-color: white;
+  color: #ff3300;
+  width: 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -1px 8px 1px #ffd6cc;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+
+.zero {
+  width: 112px;
+}
+
+.equals {
+  position: absolute;
+  right: 5px;
+  top: 170px;
+  height: 100px;
+}
